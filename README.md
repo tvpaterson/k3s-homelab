@@ -9,13 +9,13 @@
 <p>- 16GB RAM (DDR4)</p>
 
 <h1>📐 Architecture</h1>
-<p>With the limited resources available (16GB RAM), I decided to go with the following setup:</p>
+<p>With the limited resources available (16GB RAM), I decided to go with the following setup:
 | Node Type     | CPU | RAM |
 | ------------- |---- | ----|
 | Control Plane | 1   | 2GB |
 | Worker Node 1 | 2   | 4GB |
 | Worker Node 2 | 2   | 4GB |
-
+</p>
 <p>This should balance both memory and CPU allocation without overcommiting the hardware</p>
 
 <h1>🛠️ Cluster Provisioning</h1>
