@@ -1,12 +1,14 @@
 # 🧪 Aether
 
-<p>Aether is my homelab, the name is based on the greek god Aether, the god of light and the sky. Light relating to the speed at which networking communication (which is actaully 2/3rd's the speed of light) and the sky symoblising cloud computing, I guess in this instance my own personal cloud at home.</p>
-<p>I built this homelab to serve as a space for experimentation, learning, and building clusters It provides an environment where I can test new or unfamiliar technologies, troubleshoot challenges, and refine my skills without impacting production environments.</p>
+<p>This repository was created to hold the configuration and documentation sourrounding my homelab. I hope you enjoy learning about it as much as I enjoyed building it!</p>
+<p>Aether is the name of my homelab, inspired by the Greek god Aether, the god of light and the sky. The "light" represents the speed of network communication, which in fiber cables travels at about two-thirds the speed of light. The "sky" symbolizes cloud computing—in this case, my own personal cloud at home.</p>
+<p>I built this homelab to serve as a space for experimentation, learning, and building clusters. It provides me with an environment where I can test out new or unfamiliar technologies, re-create/troubleshoot issues, and refine my skills without impacting a production environment.</p>
 
 <h1>⚙️ Hardware</h1>
 <p>Lenovo Legion Y530:</p>
 <p>- i5-8300H CPU</p>
 <p>- 16GB RAM (DDR4)</p>
+<p>- 500GB SSD</p>
 
 <h1>📐 Node Setup</h1>
 <p>With the limited resources available (16GB RAM), I decided to go with the following split:</p>
@@ -17,7 +19,7 @@
 | Worker Node 1 | 2   | 4GB |
 | Worker Node 2 | 2   | 4GB |
 
-<p>This should balance both memory and CPU allocation without overcommiting the hardware</p>
+<p>This should balance both memory and CPU allocation without overcommiting any hardware</p>
 
 <h1>🛠️ Cluster Provisioning</h1>
 <p>I decided to use Proxmox & K3s (https://k3s.io/) for the Kubernetes cluster on this home lab setup. K3s is a lightweight Kubernetes distribution that is specifically designed for resource-constrained environments, making it a perfect match for my hardware limitations.</p> 
