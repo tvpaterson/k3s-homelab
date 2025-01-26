@@ -1,8 +1,8 @@
 # 🧪 Aether
 
-<p>This repository was created to hold the configuration and documentation sourrounding my homelab. I hope you enjoy learning about it as much as I enjoyed building it!</p>
-<p>Aether is the name of my homelab, inspired by the Greek god Aether, the god of light and the sky. The "light" represents the speed of network communication, which in fiber cables travels at about two-thirds the speed of light. The "sky" symbolizes cloud computing—in this case, my own personal cloud at home.</p>
-<p>I built this homelab to serve as a space for experimentation, learning, and building clusters. It provides me with an environment where I can test out new or unfamiliar technologies, re-create/troubleshoot issues, and refine my skills without impacting a production environment.</p>
+<p>This repository was created to hold the configuration files and documentation sourrounding my homelab. I hope you enjoy learning about it as much as I enjoyed building it!</p>
+<p>Aether is the name of my homelab, inspired by the Greek god Aether, the god of light and the sky. The "light" represents the speed of network communication, which in fiber cables travels at about two-thirds the speed of light. The "sky" symbolizes cloud computing — in this case, my own personal cloud.</p>
+<p>I built this homelab to serve as a space for experimentation, learning, and building clusters. It provides me with an environment where I can test out new or unfamiliar technologies, re-create/troubleshoot issues, and refine my skills without impacting any other environments.</p>
 
 <h1>⚙️ Hardware</h1>
 <p>Lenovo Legion Y530:</p>
