@@ -6,4 +6,4 @@
 <h1>⚙️ Hardware</h1>
 <p>Lenovo Legion Y530:</p>
 <p>- i5-8300H CPU</p>
-<p>- 16GB RAM (DDR4)/p>
+<p>- 16GB RAM (DDR4)</p>
