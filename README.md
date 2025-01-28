@@ -1,23 +1,22 @@
-# 🧪 Aether
+# 🧪 Pi-nacle: Small Nodes, Big Ideas
 
 <p>This repository was created to hold the configuration files and documentation sourrounding my homelab. I hope you enjoy learning about it as much as I enjoyed building it!</p>
-<p>Aether is the name of my homelab, inspired by the Greek god Aether, the god of light and the sky. The "light" represents the speed of network communication, which in fiber cables travels at about two-thirds the speed of light. The "sky" symbolizes cloud computing — in this case, my own personal cloud.</p>
+<p>Pi-nacle is the name given to my homelab for the sole reason that it has reached it's pinnacle in terms of performance.</p>
 <p>I built this homelab to serve as a space for experimentation, learning, and building clusters. It provides me with an environment where I can test out new or unfamiliar technologies, re-create/troubleshoot issues, and refine my skills without impacting any other environments.</p>
 
 <h1>⚙️ Hardware</h1>
-<p>Lenovo Legion Y530:</p>
-<p>- i5-8300H CPU</p>
-<p>- 16GB RAM (DDR4)</p>
-<p>- 500GB SSD</p>
+<p>Raspberry Pi 4b 8GB:</p>
+<p>- x4 Raspberry Pi Zeros </p>
+<p>Sporting a whopping 10GB of RAM, this little Pi of mine allows me to run a 6 node cluster that can fit in the palm of my hand. Using the Cluster Hat 2.5 I'm able to add 4 additional machines literally ontop of my Pi 4</p>
 
 <h1>📐 Node Setup</h1>
 <p>With the limited resources available (16GB RAM), I decided to go with the following split:</p>
 
-| Node Type     | CPU | RAM |
-| ------------- |---- | ----|
-| Control Plane | 1   | 2GB |
-| Worker Node 1 | 2   | 4GB |
-| Worker Node 2 | 2   | 4GB |
+| Node Type      | CPU | RAM  |
+| -------------  |---- | -----|
+| Control Plane  | 1   | 2GB  |
+| x4 Worker Nodes| 1   | 512MB|
+
 
 <p>This should balance both memory and CPU allocation without overcommiting any hardware</p>
 
